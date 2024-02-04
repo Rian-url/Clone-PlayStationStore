@@ -1,0 +1,31 @@
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 13vh;
+    background-color: rgba(0, 0, 0, 0.809);
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+
+    padding: 8px;
+}
+
+.container .label{
+    margin-bottom: 0.3rem;
+}
+
+.container .pricing_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing_content .type_game{
+    display: flex;
+}
+
+.pricing_content .type_game span{
+    font-weight: bold;
+    color: aqua;
+}

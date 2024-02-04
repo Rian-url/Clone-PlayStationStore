@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CardComponent } from './components/card/card.component';
-import { ExclusiveIconComponent } from './components/exclusive-icon/exclusive-icon.component';
+import { ExclusiveIconComponent } from './components/card/exclusive-icon/exclusive-icon.component';
+import { CardPrecingComponent } from './components/card/card-precing/card-precing.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ExclusiveIconComponent } from './components/exclusive-icon/exclusive-ic
     HomeComponent,
     CardComponent,
     ExclusiveIconComponent,
+    CardPrecingComponent,
   ],
   imports: [
     BrowserModule,
